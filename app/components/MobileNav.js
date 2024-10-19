@@ -5,17 +5,17 @@ import { useEffect, useState } from "react";
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
+
   const openNav = isOpen
     ? "translate-x-[0%] opacity-100"
     : "translate-x-[150%] opacity-0 -rotate-45";
+
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
     }
-
-    // Clean up when the component is unmounted or isOpen changes
     return () => {
       document.body.style.overflow = "auto";
     };

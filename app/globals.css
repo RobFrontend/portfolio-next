@@ -38,3 +38,10 @@ body {
 .headroom--pinned {
   background-color: rgba(244, 244, 244, 0.7);
 }
+
+section {
+  padding-top: 96px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
