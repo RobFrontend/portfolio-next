@@ -1,13 +1,26 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
   const openNav = isOpen
     ? "translate-x-[0%] opacity-100"
     : "translate-x-[150%] opacity-0 -rotate-45";
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    // Clean up when the component is unmounted or isOpen changes
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpen]);
+
   return (
     <>
       <svg
@@ -27,7 +40,7 @@ function MobileNav() {
       </svg>
 
       <div
-        className={`absolute grid justify-center content-center gap-12 text-2xl font-[300] tracking-[-1px] left-0  top-0  z-[-1] bg-slate-100/80 w-full h-dvh backdrop-blur-sm transition-all duration-500 ${openNav} `}
+        className={`absolute grid justify-center content-center gap-12 text-2xl font-[300] tracking-[-1px] left-0  top-0  z-[-1] bg-slate-100/80 w-full h-[100dvh] backdrop-blur-sm transition-all duration-500 ${openNav} `}
         onClick={() => setIsOpen(!isOpen)}
       >
         <Link
