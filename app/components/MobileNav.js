@@ -40,7 +40,7 @@ function MobileNav() {
       </svg>
 
       <div
-        className={`absolute grid justify-center content-center gap-12 text-2xl font-[300] tracking-[-1px] left-0  top-0  z-[-1] bg-slate-100/80 w-full h-[100dvh] backdrop-blur-sm transition-all duration-500 ${openNav} `}
+        className={`absolute grid justify-center content-center gap-12 text-2xl font-[300] tracking-[-1px] left-0  top-0  z-[-1] bg-slate-100/80 w-full h-[100vh] backdrop-blur-sm transition-all duration-500 ${openNav} `}
         onClick={() => setIsOpen(!isOpen)}
       >
         <Link
