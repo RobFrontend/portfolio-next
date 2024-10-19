@@ -7,7 +7,9 @@ import OpacityH1 from "./OpacityH1";
 function Hero() {
   return (
     <div className="min-h-[100dvh] relative z-[1] overflow-hidden heroShadow">
-      <Navigation />
+      <div className="z-[99]">
+        <Navigation />
+      </div>
       <div className="max-w-[1200px] grid mx-auto pt-32 justify-items-center gap-8 max-xl:pt-16">
         <OpacityH1 />
         <h2 className="text-5xl tracking-[-5px] font-[300] z-10">Portfolio</h2>
