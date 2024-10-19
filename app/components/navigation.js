@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 
 function Navigation() {
   return (
@@ -27,6 +28,9 @@ function Navigation() {
         >
           Hobby projects
         </Link>
+      </div>
+      <div className="md:hidden">
+        <MobileNav />
       </div>
     </nav>
   );
