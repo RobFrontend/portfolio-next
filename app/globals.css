@@ -30,3 +30,11 @@ body {
 .heroShadow {
   box-shadow: 0px 0px 30px #2b2c2c25;
 }
+
+.headroom {
+  z-index: 9999 !important;
+}
+
+.headroom--pinned {
+  background-color: rgba(244, 244, 244, 0.7);
+}

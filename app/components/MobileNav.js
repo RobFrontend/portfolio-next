@@ -5,6 +5,9 @@ import { useState } from "react";
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
+  const openNav = isOpen
+    ? "translate-x-[0%] opacity-100"
+    : "translate-x-[150%] opacity-0 -rotate-45";
   return (
     <>
       <svg
@@ -23,32 +26,30 @@ function MobileNav() {
         />
       </svg>
 
-      {isOpen && (
-        <div
-          className="absolute grid justify-center content-center gap-12 text-2xl font-[300] tracking-[-1px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 z-[-1] bg-slate-100/80 w-full h-dvh backdrop-blur-sm"
-          onClick={() => setIsOpen(!isOpen)}
+      <div
+        className={`absolute grid justify-center content-center gap-12 text-2xl font-[300] tracking-[-1px] left-0  top-0  z-[-1] bg-slate-100/80 w-full h-dvh backdrop-blur-sm transition-all duration-500 ${openNav} `}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <Link
+          href="about"
+          className="hover:opacity-90 transition-all duration-300"
         >
-          <Link
-            href="about"
-            className="hover:opacity-90 transition-all duration-300"
-          >
-            About me
-          </Link>
+          About me
+        </Link>
 
-          <Link
-            href="clientprojects"
-            className="hover:opacity-90 transition-all duration-300"
-          >
-            Client projects
-          </Link>
-          <Link
-            href="hobyprojects"
-            className="hover:opacity-90 transition-all duration-300"
-          >
-            Hobby projects
-          </Link>
-        </div>
-      )}
+        <Link
+          href="clientprojects"
+          className="hover:opacity-90 transition-all duration-300"
+        >
+          Client projects
+        </Link>
+        <Link
+          href="hobyprojects"
+          className="hover:opacity-90 transition-all duration-300"
+        >
+          Hobby projects
+        </Link>
+      </div>
     </>
   );
 }
