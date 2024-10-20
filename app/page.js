@@ -94,7 +94,7 @@ export default function Home() {
       {/* CLIENT PROJECTS */}
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6">Client projects</h2>
-        <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 ">
+        <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 max-sm:gap-5">
           <HomeClientCarousel />
           <div className="grid">
             <div className="pb-6 max-sm:text-justify">

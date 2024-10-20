@@ -39,8 +39,8 @@ function HomeClientCarousel() {
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
       >
-        <div className="w-screen grid p-4">
-          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl">
+        <div className="w-screen grid p-4 max-sm:p-2">
+          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl max-sm:pb-4">
             JeszczeStronaAlboSto
           </h3>
           <Link
@@ -55,8 +55,8 @@ function HomeClientCarousel() {
             />
           </Link>
         </div>
-        <div className=" w-screen grid p-4">
-          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl">
+        <div className=" w-screen grid p-4 max-sm:p-2">
+          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl max-sm:pb-4">
             BalanceBook
           </h3>
           <Link
@@ -71,8 +71,8 @@ function HomeClientCarousel() {
             />
           </Link>
         </div>
-        <div className=" w-screen grid p-4">
-          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl">
+        <div className=" w-screen grid p-4 max-sm:p-2">
+          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl max-sm:pb-4">
             Biceps
           </h3>
           <Link
@@ -87,8 +87,8 @@ function HomeClientCarousel() {
             />
           </Link>
         </div>
-        <div className="w-screen grid p-4">
-          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl">
+        <div className="w-screen grid p-4 max-sm:p-2">
+          <h3 className="text-3xl opacity-90 text-center pb-6 max-sm:text-xl max-sm:pb-4">
             Photobooth360
           </h3>
           <Link
@@ -106,19 +106,19 @@ function HomeClientCarousel() {
       </div>
       <div className="p-8 flex gap-8 justify-center max-sm:gap-4 max-sm:p-3">
         <button
-          className={`p-4 ${button1BG} rounded-full drop-shadow-lg transition-all duration-300 max-sm:p-3`}
+          className={`p-4 ${button1BG} rounded-full drop-shadow-sm transition-all duration-300 max-sm:p-3`}
           onClick={() => setIsPercent(0)}
         ></button>
         <button
-          className={`p-4 ${button2BG} rounded-full drop-shadow-lg transition-all duration-300 max-sm:p-3`}
+          className={`p-4 ${button2BG} rounded-full drop-shadow-sm transition-all duration-300 max-sm:p-3`}
           onClick={() => setIsPercent(-25)}
         ></button>
         <button
-          className={`p-4 ${button3BG} rounded-full drop-shadow-lg transition-all duration-300 max-sm:p-3`}
+          className={`p-4 ${button3BG} rounded-full drop-shadow-sm transition-all duration-300 max-sm:p-3`}
           onClick={() => setIsPercent(-50)}
         ></button>
         <button
-          className={`p-4 ${button4BG} rounded-full drop-shadow-lg transition-all duration-300 max-sm:p-3`}
+          className={`p-4 ${button4BG} rounded-full drop-shadow-sm transition-all duration-300 max-sm:p-3`}
           onClick={() => setIsPercent(-75)}
         ></button>
       </div>
