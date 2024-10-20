@@ -13,21 +13,13 @@ function HomeClientCarousel() {
   const [isHover, setIsHover] = useState(false);
 
   const button1BG =
-    isPercent === 0
-      ? `bg-[#575858] hover:bg-[#ddd]`
-      : `bg-[#eee] hover:bg-[#ddd]`;
+    isPercent === 0 ? `bg-[#575858]` : `bg-[#eee] hover:bg-[#ddd]`;
   const button2BG =
-    isPercent === -25
-      ? `bg-[#575858] hover:bg-[#ddd]`
-      : `bg-[#eee] hover:bg-[#ddd]`;
+    isPercent === -25 ? `bg-[#575858]` : `bg-[#eee] hover:bg-[#ddd]`;
   const button3BG =
-    isPercent === -50
-      ? `bg-[#575858] hover:bg-[#ddd]`
-      : `bg-[#eee] hover:bg-[#ddd]`;
+    isPercent === -50 ? `bg-[#575858]` : `bg-[#eee] hover:bg-[#ddd]`;
   const button4BG =
-    isPercent === -75
-      ? `bg-[#575858] hover:bg-[#ddd]`
-      : `bg-[#eee] hover:bg-[#ddd]`;
+    isPercent === -75 ? `bg-[#575858]` : `bg-[#eee] hover:bg-[#ddd]`;
 
   useEffect(() => {
     if (!isHover) {
