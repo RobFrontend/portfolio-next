@@ -33,6 +33,7 @@ body {
 
 .headroom {
   z-index: 9999 !important;
+  transition: all 0.5s;
 }
 
 .headroom--pinned {
@@ -44,4 +45,11 @@ section {
   padding-bottom: 32px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+@media (max-width: 640px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
