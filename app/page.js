@@ -21,12 +21,17 @@ export default function Home() {
         <h2 className="text-4xl tracking-[-4px] pb-6">About me</h2>
         <div className="grid grid-cols-2 gap-8 content-center justify-center justify-items-center items-center px-4 max-md:grid-cols-1">
           <div className="grid">
-            <p className="pb-6 max-md:text-justify">
-              My primary expertise, representing the sphere where I continue to
-              focus and evolve significantly. I create clean and elegant code,
-              with an effective character. My primary expertise, representing
-              the sphere where I continue to focus and evolve significantly. I
-              create clean and elegant code, with an effective character.
+            <p className="pb-6 text-justify">
+              I specialize in frontend development with a strong command of
+              HTML, CSS, JavaScript, and React. Currently, I&apos;m enhancing my
+              skills in Next.js and Tailwind CSS to build dynamic and responsive
+              web applications. I also have hands-on experience with creating
+              websites for clients, which has sharpened my practical knowledge
+              in real-world projects. In addition, I am familiar with Git for
+              version control and am exploring backend technologies, including
+              Node.js. Recently, I&apos;ve started working with databases,
+              focusing on MySQL and PostgreSQL, though for now, I&apos;m using
+              Supabase to manage data in my projects.
             </p>
             <Link
               href="/about"

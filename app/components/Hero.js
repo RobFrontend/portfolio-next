@@ -13,22 +13,23 @@ function Hero() {
         <OpacityH1 />
         <h2 className="text-5xl tracking-[-5px] font-[300] z-10">Portfolio</h2>
         <div className="flex justify-between pt-24 z-10 px-8 max-xl:pt-16  w-full">
-          <div className="w-[30%]">
+          <div className="w-[30%] max-sm:w-[50%]">
             <h3 className="text-3xl max-[400px]:text-xl">Frontend</h3>
             <p className="max-sm:hidden">
-              My primary expertise, representing the sphere where I continue to
-              focus and evolve significantly. I create clean and elegant code,
-              with an effective character.
+              This is where I excel, focusing on clean, efficient code and
+              creating intuitive, visually appealing interfaces. I prioritize
+              user experience, ensuring both aesthetics and functionality are
+              perfectly balanced.
             </p>
           </div>
-          <div className="w-[30%] ">
+          <div className="w-[30%] max-sm:w-[50%]">
             <h3 className="text-3xl max-sm:text-right max-[400px]:text-xl">
-              Creator
+              Full-Stack
             </h3>
             <p className="max-sm:hidden">
-              My passion for creation has been a lifelong pursuit. I
-              continuously challenge myself with diverse tasks to expand and
-              refine my skill set.
+              While frontend is my strength, I&apos;m equally committed to
+              mastering backend technologies, databases, and design. I thrive in
+              creating complete, polished projects from start to finish.
             </p>
           </div>
         </div>
