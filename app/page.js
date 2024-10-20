@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Link from "next/link";
+// About icons
 import AboutHtml from "@/public/AboutHtml.png";
 import AboutCss from "@/public/AboutCss.png";
 import AboutJs from "@/public/AboutJs.png";
@@ -11,7 +12,21 @@ import AboutNode from "@/public/AboutNode.png";
 import AboutTailwind from "@/public/AboutTailwind.png";
 import AboutGit from "@/public/AboutGit.png";
 import AboutSupabase from "@/public/AboutSupabase.png";
+//
 import HomeClientCarousel from "./components/HomeClientCarousel";
+// Hobby imgs
+import RetroGame from "@/public/retrogame.webp";
+import BlogCms from "@/public/cms.webp";
+import Robshop from "@/public/robshop.webp";
+import Robify from "@/public/robify.webp";
+import CityLa from "@/public/city.webp";
+import Karkonosze from "@/public/karkonosze.webp";
+import Bulls from "@/public/bulls.webp";
+import NodeTeams from "@/public/teamsnode.webp";
+import CreateUser from "@/public/createuser.webp";
+import HoopHaven from "@/public/hoophaven.webp";
+import Nature from "@/public/nature.webp";
+import NbaNews from "@/public/nbanews.webp";
 
 export default function Home() {
   return (
@@ -140,10 +155,128 @@ export default function Home() {
               </ul>
             </div>
             <Link
-              href="/about"
+              href="/clientprojects"
               className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center"
             >
               More about client projects
+            </Link>
+          </div>
+        </div>
+      </section>
+      {/* HOBBY POJECTS */}
+      <section className="max-w-[1200px] mx-auto">
+        <h2 className="text-4xl tracking-[-4px] pb-6">Hobby projects</h2>
+        <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 max-sm:gap-5">
+          <div className="grid grid-cols-4 gap-1 bg-[#161616]">
+            <Image
+              src={RetroGame}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={Robify}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={BlogCms}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={HoopHaven}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={Karkonosze}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={CityLa}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={Nature}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={Robshop}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={Bulls}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={NodeTeams}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={NbaNews}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+            <Image
+              src={CreateUser}
+              alt="hobby"
+              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+            />
+          </div>
+          <div className="grid">
+            <div className="pb-6 max-sm:text-justify">
+              <h3 className=" text-xl max-sm:text-base">
+                Over the course of my freelance work, I&apos;ve successfully
+                delivered a variety of projects for clients, each with its own
+                unique requirements:
+              </h3>
+              <ul className="grid gap-3 p-2">
+                <li>
+                  <h4 className="text-lg max-sm:text-sm">Landing Pages:</h4>
+                  <p className="max-sm:text-xs">
+                    I developed two landing pages—one using HTML, CSS, and
+                    JavaScript, and another using React with component-based
+                    styling. Both projects were designed to be responsive and
+                    visually engaging, providing my clients with user-friendly,
+                    conversion-focused pages.
+                  </p>
+                </li>
+                <li>
+                  <h4 className="text-lg max-sm:text-sm">
+                    Multi-Page Website:
+                  </h4>
+                  <p className="max-sm:text-xs">
+                    I built a comprehensive website with multiple subpages,
+                    using HTML, CSS, and JavaScript. The focus was on clarity,
+                    ease of navigation, and delivering a professional appearance
+                    for the client&apos;s business needs.
+                  </p>
+                </li>
+                <li>
+                  <h4 className="text-lg max-sm:text-sm">
+                    Full-Stack Blog Website:
+                  </h4>
+                  <p className="max-sm:text-xs">
+                    I created a full-stack website using Next.js and Tailwind
+                    CSS, which included a fully integrated blog with a CMS. This
+                    allows my client to easily add and manage articles. I used
+                    Supabase to manage the backend and handle API requests,
+                    ensuring a smooth and scalable system.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <Link
+              href="/clientprojects"
+              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center"
+            >
+              More about hobby projects
             </Link>
           </div>
         </div>

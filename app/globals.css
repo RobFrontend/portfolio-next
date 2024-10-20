@@ -41,7 +41,7 @@ body {
 
 .headroom {
   z-index: 9999 !important;
-  /* transition: background-color 0.5s; */
+  transition: background-color 0.5s;
 }
 
 .headroom--pinned {

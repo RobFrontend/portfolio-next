@@ -51,7 +51,7 @@ function HomeClientCarousel() {
             <Image
               src={JeszczeStrona}
               alt="Client page"
-              className="justify-self-center"
+              className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
         </div>
@@ -67,7 +67,7 @@ function HomeClientCarousel() {
             <Image
               src={BalanceBook}
               alt="Client page"
-              className="justify-self-center"
+              className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
         </div>
@@ -83,7 +83,7 @@ function HomeClientCarousel() {
             <Image
               src={Biceps}
               alt="Client page"
-              className="justify-self-center"
+              className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
         </div>
@@ -99,7 +99,7 @@ function HomeClientCarousel() {
             <Image
               src={Robson}
               alt="Client page"
-              className="justify-self-center"
+              className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
         </div>
