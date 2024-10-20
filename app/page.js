@@ -167,66 +167,66 @@ export default function Home() {
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6">Hobby projects</h2>
         <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 max-sm:gap-5">
-          <div className="grid grid-cols-4 gap-1 bg-[#161616]">
+          <div className="grid grid-cols-4 ">
             <Image
               src={RetroGame}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={Robify}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={BlogCms}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={HoopHaven}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={Karkonosze}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={CityLa}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={Nature}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={Robshop}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={Bulls}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={NodeTeams}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={NbaNews}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
             <Image
               src={CreateUser}
               alt="hobby"
-              className="brightness-90 hover:brightness-100 hover:scale-[1.01] hover:z-10 transition-all duration-500"
+              className="brightness-90 hover:brightness-100 transition-all duration-500"
             />
           </div>
           <div className="grid">
