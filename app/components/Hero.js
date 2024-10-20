@@ -44,7 +44,7 @@ function Hero() {
       <Image
         src={TranIMG}
         alt="transparent"
-        className="absolute h-[55vh] max-sm:h-[45dvh]  w-auto bottom-[-5px] right-1/2 translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1]"
+        className="absolute h-[55vh] max-sm:h-[45vh]  w-auto bottom-[-5px] right-1/2 translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1]"
       />
     </div>
   );
