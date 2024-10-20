@@ -18,12 +18,12 @@ export default function RootLayout({ children }) {
     <html lang="en" className={poppins.className}>
       <body className="antialiased relative">
         {children}{" "}
-        <Image
+        {/* <Image
           src={BGSvg}
           alt="bg"
           fill
           className="object-cover object-center bg-fixed z-[-1]"
-        />
+        /> */}
       </body>
     </html>
   );
