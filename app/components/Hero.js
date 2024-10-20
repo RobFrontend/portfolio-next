@@ -6,7 +6,7 @@ import OpacityH1 from "./OpacityH1";
 
 function Hero() {
   return (
-    <div className="min-h-dvh relative z-[1] overflow-hidden heroShadow">
+    <div className="min-h-screen relative z-[1] overflow-hidden heroShadow">
       <Navigation />
 
       <div className="max-w-[1200px] grid mx-auto pt-32 justify-items-center gap-8 max-xl:pt-16">
