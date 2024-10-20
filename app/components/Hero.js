@@ -6,7 +6,7 @@ import OpacityH1 from "./OpacityH1";
 
 function Hero() {
   return (
-    <div className="min-h-[100vh] relative z-[1] overflow-hidden heroShadow">
+    <div className="min-h-screen relative z-[1] overflow-hidden heroShadow">
       <Navigation />
 
       <div className="max-w-[1200px] grid mx-auto pt-32 justify-items-center gap-8 max-xl:pt-16">
@@ -44,7 +44,7 @@ function Hero() {
       <Image
         src={TranIMG}
         alt="transparent"
-        className="absolute h-[55dvh] max-sm:h-[45dvh]  w-auto bottom-[-5px] right-1/2 translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1]"
+        className="absolute h-[55vh] max-sm:h-[45dvh]  w-auto bottom-[-5px] right-1/2 translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1]"
       />
     </div>
   );
