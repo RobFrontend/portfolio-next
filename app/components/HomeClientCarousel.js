@@ -50,7 +50,7 @@ function HomeClientCarousel() {
           >
             <Image
               src={JeszczeStrona}
-              alt="Client page"
+              alt="Client page with blog jeszczestronaalbosto.pl"
               className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
@@ -66,7 +66,7 @@ function HomeClientCarousel() {
           >
             <Image
               src={BalanceBook}
-              alt="Client page"
+              alt="Client page balancebook.pl"
               className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
@@ -82,7 +82,7 @@ function HomeClientCarousel() {
           >
             <Image
               src={Biceps}
-              alt="Client page"
+              alt="Client page nutrition store biceps.pl"
               className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>
@@ -98,7 +98,7 @@ function HomeClientCarousel() {
           >
             <Image
               src={Robson}
-              alt="Client page"
+              alt="Client page photobooth360"
               className="justify-self-center transition-all duration-500 hover:scale-[1.02]"
             />
           </Link>

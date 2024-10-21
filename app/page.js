@@ -27,6 +27,7 @@ import CreateUser from "@/public/createuser.webp";
 import HoopHaven from "@/public/hoophaven.webp";
 import Nature from "@/public/nature.webp";
 import NbaNews from "@/public/nbanews.webp";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -52,7 +53,7 @@ export default function Home() {
             </p>
             <Link
               href="/about"
-              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg"
+              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300"
             >
               More about me
             </Link>
@@ -60,47 +61,47 @@ export default function Home() {
           <div className="grid grid-cols-3 gap-8  self-center justify-self-end w-fit max-md:row-start-1 max-md:justify-self-center max-md:gap-6">
             <Image
               src={AboutHtml}
-              alt="logo"
+              alt="logo html"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutCss}
-              alt="logo"
+              alt="logo css"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutJs}
-              alt="logo"
+              alt="logo javascript"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutReact}
-              alt="logo"
+              alt="logo react"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutNext}
-              alt="logo"
+              alt="logo next"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutNode}
-              alt="logo"
+              alt="logo node"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutTailwind}
-              alt="logo"
+              alt="logo tailwind"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutGit}
-              alt="logo"
+              alt="logo git"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
             <Image
               src={AboutSupabase}
-              alt="logo"
+              alt="logo supabase"
               className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16"
             />
           </div>
@@ -156,77 +157,78 @@ export default function Home() {
             </div>
             <Link
               href="/clientprojects"
-              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center"
+              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300"
             >
               More about client projects
             </Link>
           </div>
         </div>
       </section>
-      {/* HOBBY POJECTS */}
-      <div className="bg-[#080808]">
+      {/* DARK MODE */}
+      <div className="bg-gradient-to-br from-[#080808] to-[#111]">
+        {/* HOBBY POJECTS */}
         <section className="max-w-[1200px] mx-auto">
           <h2 className="text-4xl tracking-[-4px] pb-6">Hobby projects</h2>
           <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 max-sm:gap-5">
             <div className="grid grid-cols-4 max-md:grid-cols-3 max-[425px]:grid-cols-2">
               <Image
                 src={RetroGame}
-                alt="hobby"
+                alt="hobby project game"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={Robify}
-                alt="hobby"
+                alt="hobby project spotify"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={BlogCms}
-                alt="hobby"
+                alt="hobby project cms"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={HoopHaven}
-                alt="hobby"
+                alt="hobby project courts"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={Karkonosze}
-                alt="hobby"
+                alt="hobby project mountain"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={CityLa}
-                alt="hobby"
+                alt="hobby project los angeles"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={Nature}
-                alt="hobby"
+                alt="hobby project booking"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={Robshop}
-                alt="hobby"
+                alt="hobby project shop"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={Bulls}
-                alt="hobby"
+                alt="hobby project game"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={NodeTeams}
-                alt="hobby"
+                alt="hobby project node teams"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={NbaNews}
-                alt="hobby"
+                alt="hobby project api"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
               <Image
                 src={CreateUser}
-                alt="hobby"
+                alt="hobby project oop"
                 className="brightness-90 hover:brightness-100 transition-all duration-500"
               />
             </div>
@@ -267,13 +269,14 @@ export default function Home() {
               </div>
               <Link
                 href="/clientprojects"
-                className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center"
+                className="text-xl border-b-[1px] border-[#575858] text-[#787979] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300"
               >
                 More about hobby projects
               </Link>
             </div>
           </div>
         </section>
+        <Footer />
       </div>
     </div>
   );
