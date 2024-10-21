@@ -31,6 +31,12 @@ function Navigation() {
           >
             Hobby projects
           </Link>
+          <Link
+            href="contact"
+            className="hover:opacity-90 transition-all duration-300"
+          >
+            Contact
+          </Link>
         </ul>
         <div className="md:hidden z-40">
           <MobileNav />
