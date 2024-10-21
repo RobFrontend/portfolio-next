@@ -164,114 +164,117 @@ export default function Home() {
         </div>
       </section>
       {/* HOBBY POJECTS */}
-      <section className="max-w-[1200px] mx-auto">
-        <h2 className="text-4xl tracking-[-4px] pb-6">Hobby projects</h2>
-        <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 max-sm:gap-5">
-          <div className="grid grid-cols-4 max-md:grid-cols-3 max-[425px]:grid-cols-2">
-            <Image
-              src={RetroGame}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={Robify}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={BlogCms}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={HoopHaven}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={Karkonosze}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={CityLa}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={Nature}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={Robshop}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={Bulls}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={NodeTeams}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={NbaNews}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-            <Image
-              src={CreateUser}
-              alt="hobby"
-              className="brightness-90 hover:brightness-100 transition-all duration-500"
-            />
-          </div>
-          <div className="grid">
-            <div className="pb-6 max-sm:text-justify">
-              <ul className="grid gap-3">
-                <li>
-                  <h3 className="text-xl max-sm:text-lg">
-                    Versatile Project Development
-                  </h3>
-                  <p className="max-sm:text-sm">
-                    In my free time, I&apos;ve developed a wide range of
-                    projects that demonstrate my versatility and passion for
-                    learning new technologies. These projects include landing
-                    pages, multi-page websites, small e-commerce shops, user
-                    input fields, and a full-stack blog with a custom CMS.
-                    I&apos;ve also worked on API integrations, both building my
-                    own and consuming external APIs. One of my recent smaller
-                    projects involved creating a Spotify cover component.
-                  </p>
-                </li>
-                <li>
-                  <h3 className="text-xl max-sm:text-lg">
-                    Diverse Technology Stack
-                  </h3>
-                  <p className="max-sm:text-sm">
-                    These projects span a variety of technologies, from HTML,
-                    CSS, and JavaScript, to more advanced tools like React,
-                    Next.js with Tailwind CSS, Supabase, and even a project in
-                    Node.js. Some of my projects also incorporate local storage
-                    to enhance user experience. Through these projects, I
-                    continuously challenge myself to improve, both as a
-                    developer and a creator.
-                  </p>
-                </li>
-              </ul>
+      <div className="bg-[#080808]">
+        <section className="max-w-[1200px] mx-auto">
+          <h2 className="text-4xl tracking-[-4px] pb-6">Hobby projects</h2>
+          <div className="grid  gap-8 content-center justify-center justify-items-center items-center px-4 max-sm:gap-5">
+            <div className="grid grid-cols-4 max-md:grid-cols-3 max-[425px]:grid-cols-2">
+              <Image
+                src={RetroGame}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={Robify}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={BlogCms}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={HoopHaven}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={Karkonosze}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={CityLa}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={Nature}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={Robshop}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={Bulls}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={NodeTeams}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={NbaNews}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
+              <Image
+                src={CreateUser}
+                alt="hobby"
+                className="brightness-90 hover:brightness-100 transition-all duration-500"
+              />
             </div>
-            <Link
-              href="/clientprojects"
-              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center"
-            >
-              More about hobby projects
-            </Link>
+            <div className="grid">
+              <div className="pb-6 max-sm:text-justify">
+                <ul className="grid gap-3">
+                  <li>
+                    <h3 className="text-xl max-sm:text-lg">
+                      Versatile Project Development
+                    </h3>
+                    <p className="max-sm:text-sm">
+                      In my free time, I&apos;ve developed a wide range of
+                      projects that demonstrate my versatility and passion for
+                      learning new technologies. These projects include landing
+                      pages, multi-page websites, small e-commerce shops, user
+                      input fields, and a full-stack blog with a custom CMS.
+                      I&apos;ve also worked on API integrations, both building
+                      my own and consuming external APIs. One of my recent
+                      smaller projects involved creating a Spotify cover
+                      component.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-xl max-sm:text-lg">
+                      Diverse Technology Stack
+                    </h3>
+                    <p className="max-sm:text-sm">
+                      These projects span a variety of technologies, from HTML,
+                      CSS, and JavaScript, to more advanced tools like React,
+                      Next.js with Tailwind CSS, Supabase, and even a project in
+                      Node.js. Some of my projects also incorporate local
+                      storage to enhance user experience. Through these
+                      projects, I continuously challenge myself to improve, both
+                      as a developer and a creator.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <Link
+                href="/clientprojects"
+                className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center"
+              >
+                More about hobby projects
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
