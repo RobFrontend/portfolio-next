@@ -234,10 +234,10 @@ export default function Home() {
               <div className="pb-6 max-sm:text-justify">
                 <ul className="grid gap-3">
                   <li>
-                    <h3 className="text-xl max-sm:text-lg">
+                    <h3 className="text-xl max-sm:text-lg text-[#787979] tracking-[-1.5px]">
                       Versatile Project Development
                     </h3>
-                    <p className="max-sm:text-sm">
+                    <p className="max-sm:text-sm text-[#898a8a] max-md:text-justify">
                       In my free time, I&apos;ve developed a wide range of
                       projects that demonstrate my versatility and passion for
                       learning new technologies. These projects include landing
@@ -250,10 +250,10 @@ export default function Home() {
                     </p>
                   </li>
                   <li>
-                    <h3 className="text-xl max-sm:text-lg">
+                    <h3 className="text-xl max-sm:text-lg text-[#787979] tracking-[-1.5px]">
                       Diverse Technology Stack
                     </h3>
-                    <p className="max-sm:text-sm">
+                    <p className="max-sm:text-sm text-[#898a8a] max-md:text-justify">
                       These projects span a variety of technologies, from HTML,
                       CSS, and JavaScript, to more advanced tools like React,
                       Next.js with Tailwind CSS, Supabase, and even a project in
