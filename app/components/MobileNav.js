@@ -57,7 +57,7 @@ function MobileNav() {
           Client projects
         </Link>
         <Link
-          href="hobyprojects"
+          href="hobbyprojects"
           className="hover:opacity-90 transition-all duration-300"
         >
           Hobby projects
