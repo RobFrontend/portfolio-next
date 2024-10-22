@@ -16,7 +16,7 @@ function Page() {
           <h2 className="text-5xl tracking-[-5px] font-[300] z-10">
             Portfolio
           </h2>
-          <div className="flex  pt-32 z-10 px-8 max-xl:pt-24 w-full">
+          <div className="flex  pt-32 z-10 px-8  w-full">
             <div>
               <h3 className="text-6xl max-[450px]:text-4xl tracking-[-6px] max-[450px]:tracking-[-4px]">
                 About me
@@ -34,7 +34,7 @@ function Page() {
         <Image
           src={TranIMG}
           alt="transparent"
-          className="absolute h-[55vh] max-sm:h-[45vh]  w-auto bottom-[-5px] right-[20%] translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1] max-[425px]:right-[25%]"
+          className="absolute h-[50vh] max-sm:h-[40vh]  w-auto bottom-[-5px] right-[20%] translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1] max-[425px]:right-[30%]"
         />
       </div>
       <Features />
