@@ -13,7 +13,7 @@ function Page() {
       <HeroSubPages>
         About<br></br>
         <span className="text-base tracking-tighter px-1 max-[450px]:text-xs max-[450px]:px-[2px]">
-          me and my coding yourney
+          me and my coding journey
         </span>
       </HeroSubPages>
       <Features />
