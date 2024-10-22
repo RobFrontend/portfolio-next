@@ -11,7 +11,7 @@ function Navigation() {
           Home
         </Link>
 
-        <ul className="flex gap-12 text-2xl font-[300] tracking-[-1px] max-md:hidden">
+        <ul className="flex gap-12 text-2xl font-[300] tracking-[-1px] max-[998px]:hidden">
           <Link
             href="about"
             className="hover:opacity-90 transition-all duration-300"
@@ -38,7 +38,7 @@ function Navigation() {
             Contact
           </Link>
         </ul>
-        <div className="md:hidden z-40">
+        <div className="min-[999px]:hidden z-40">
           <MobileNav />
         </div>
       </nav>
