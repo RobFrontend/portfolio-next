@@ -9,7 +9,12 @@ import HeroSubPages from "../components/HeroSubPages";
 function Page() {
   return (
     <>
-      <HeroSubPages>About me</HeroSubPages>
+      <HeroSubPages>
+        About<br></br>
+        <span className="text-base tracking-tighter px-1 max-[450px]:text-xs max-[450px]:px-[2px]">
+          me and my coding yourney
+        </span>
+      </HeroSubPages>
       <Features />
     </>
   );
