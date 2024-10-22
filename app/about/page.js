@@ -5,6 +5,7 @@ import Navigation from "../components/navigation";
 import OpacityH1 from "../components/OpacityH1";
 import Features from "../components/Features";
 import HeroSubPages from "../components/HeroSubPages";
+import Footer from "../components/Footer";
 
 function Page() {
   return (
@@ -16,6 +17,7 @@ function Page() {
         </span>
       </HeroSubPages>
       <Features />
+      <Footer />
     </>
   );
 }

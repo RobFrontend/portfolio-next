@@ -1,4 +1,5 @@
 import Features from "../components/Features";
+import Footer from "../components/Footer";
 import HeroSubPages from "../components/HeroSubPages";
 
 function Page() {
@@ -11,6 +12,7 @@ function Page() {
         </span>
       </HeroSubPages>
       <Features />
+      <Footer />
     </>
   );
 }

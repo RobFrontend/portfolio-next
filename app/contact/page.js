@@ -4,6 +4,7 @@ import TranIMG from "@/public/oparcieTran.webp";
 import Navigation from "../components/navigation";
 import OpacityH1 from "../components/OpacityH1";
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 function Page() {
   return (
@@ -12,7 +13,7 @@ function Page() {
       <div className="max-w-[1200px] grid mx-auto pt-32 justify-items-center gap-8 max-xl:pt-16">
         <OpacityH1 />
         <h2 className="text-5xl tracking-[-5px] font-[300] z-10">Portfolio</h2>
-        <div className="flex flex-col  items-center pt-20 max-xl:pt-12  w-full gap-3 text-center">
+        <div className="flex flex-col  items-center pt-16 max-xl:pt-8  w-full gap-3 text-center pb-16">
           <div>
             <h3 className="text-3xl max-[425px]:text-xl">Phone number</h3>
             <p>+48 609 843 405</p>
@@ -50,6 +51,9 @@ function Page() {
         fill
         className="-z-[1] object-center object-cover opacity-60 w-[110%] h-[110%]"
       />
+      <div className="absolute bottom-8 -translate-x-1/2 left-1/2 translate-y-1/2 w-full">
+        <Footer />
+      </div>
     </div>
   );
 }
