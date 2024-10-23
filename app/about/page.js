@@ -11,8 +11,10 @@ import AboutReact from "@/public/AboutReact.png";
 import AboutNext from "@/public/AboutNext.png";
 import AboutNode from "@/public/AboutNode.png";
 import AboutTailwind from "@/public/AboutTailwind.png";
-import AboutGit from "@/public/AboutGit.png";
 import AboutSupabase from "@/public/AboutSupabase.png";
+import AboutJira from "@/public/AboutJira.png";
+import AboutVSCode from "@/public/AboutVSCode.png";
+import AboutAEM from "@/public/AboutAEM.png";
 
 function Page() {
   return (
@@ -24,6 +26,53 @@ function Page() {
         </span>
       </HeroSubPages>
       <Features />
+      {/* PROFESSIONAL EXPERIENCE */}
+      <section className="max-w-[1200px] mx-auto">
+        <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
+          Professional<br></br>
+          <span className="text-lg tracking-[-1px] px-1">experience</span>
+        </h2>
+
+        <div className="flex gap-8 pb-8 pt-2 content-center justify-center flex-wrap max-sm:gap-4">
+          <Image
+            src={AboutJira}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutAEM}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutVSCode}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+        </div>
+        <h4 className="text-lg tracking-[-1px]">Web Publisher</h4>
+        <p className="pb-6 text-justify max-sm:text-sm">
+          I currently work as a Web Publisher at Cheil Poland, where I am
+          responsible for implementing changes in the CMS for Samsung&apos;s
+          shop application, primarily for the Italian version but also for other
+          regions as needed. This role has given me valuable experience in
+          working with international clients and collaborating in a fast-paced
+          environment using Jira and Scrum methodologies. Additionally, I
+          support various teams by creating websites for Samsung&apos;s Polish
+          website (Samsung shop for Poland), both through the CMS and by writing
+          raw code using HTML, CSS, and JavaScript in VS Code.
+        </p>
+        <h4 className="text-lg tracking-[-1px]">Freelance Web Developer</h4>
+        <p className="pb-6 text-justify max-sm:text-sm">
+          Beyond my full-time role, I also work as a freelance web developer.
+          I&apos;ve had the opportunity to collaborate with clients on projects
+          such as landing pages, company websites, and even full-stack
+          applications with blogs. This freelance experience has helped me hone
+          my skills in managing projects independently while delivering
+          high-quality results.
+        </p>
+      </section>
+      {/* FRONTEND JOURNEY */}
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           Frontend<br></br>
@@ -91,6 +140,7 @@ function Page() {
           (SPA) using React, Tailwind, APIs, and databases.
         </p>
       </section>
+      {/* BACKEND JOURNEY */}
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           Backend<br></br>

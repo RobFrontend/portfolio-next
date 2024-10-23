@@ -12,6 +12,9 @@ import AboutNode from "@/public/AboutNode.png";
 import AboutTailwind from "@/public/AboutTailwind.png";
 import AboutGit from "@/public/AboutGit.png";
 import AboutSupabase from "@/public/AboutSupabase.png";
+import AboutJira from "@/public/AboutJira.png";
+import AboutVSCode from "@/public/AboutVSCode.png";
+import AboutAEM from "@/public/AboutAEM.png";
 //
 import HomeClientCarousel from "./components/HomeClientCarousel";
 // Hobby imgs
@@ -58,51 +61,66 @@ export default function Home() {
               More about me
             </Link>
           </div>
-          <div className="grid grid-cols-3 gap-8  self-center justify-self-end w-fit max-md:row-start-1 max-md:justify-self-center max-md:gap-6">
+          <div className="grid grid-cols-4 gap-8  self-center justify-self-end w-fit max-lg:grid-cols-3 max-md:grid-cols-4 max-md:row-start-1 max-md:justify-self-center max-md:gap-6 max-sm:gap-4">
             <Image
               src={AboutHtml}
               alt="logo html"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutCss}
               alt="logo css"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutJs}
               alt="logo javascript"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutReact}
               alt="logo react"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutNext}
               alt="logo next"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutNode}
               alt="logo node"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutTailwind}
               alt="logo tailwind"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutGit}
               alt="logo git"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
             <Image
               src={AboutSupabase}
               alt="logo supabase"
-              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px]"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
+            />
+            <Image
+              src={AboutJira}
+              alt="logo Jira"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
+            />
+            <Image
+              src={AboutAEM}
+              alt="logo AEM"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
+            />
+            <Image
+              src={AboutVSCode}
+              alt="logo VS Code"
+              className="max-h-20 max-w-20 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg max-md:max-h-16 max-md:max-w-16 hover:translate-y-[-6px] max-sm:h-10 max-sm:w-10"
             />
           </div>
         </div>
