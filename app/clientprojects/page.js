@@ -261,7 +261,7 @@ function Page() {
                 360° photobooth owner. The website embraces a colorful,
                 party-themed design, perfectly matching the nature of the
                 business. Fully responsive, it highlights key information such
-                as an &aspo;About Us&aspo; section, recommended event types for
+                as an &apos;About Us&apos; section, recommended event types for
                 the photobooth, customer reviews (connected to a free Google
                 API), and links to social media platforms like Instagram and
                 TikTok. The vibrant design creates a fun user experience while
