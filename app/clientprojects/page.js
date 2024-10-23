@@ -108,24 +108,30 @@ function Page() {
                 combining a dynamic front-end with a powerful back-end.
               </p>
             </div>
+            <Link
+              href="https://www.jeszczestronaalbosto.pl/"
+              target="_blank"
+              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6"
+            >
+              JeszczeStronaAlboSto.pl
+            </Link>
           </div>
-        </div>
-
-        <div className="grid grid-cols-4 gap-2 drop-shadow-xl ">
-          <Image src={ClientStrona1} alt="project" />
-          <Image src={ClientStrona2} alt="project" />
-          <Image src={ClientStrona3} alt="project" />
-          <Image src={ClientStrona4} alt="project" />
-          <Image src={ClientStrona5} alt="project" />
-          <Image src={ClientStrona6} alt="project" />
-          <Image src={ClientStrona7} alt="project" />
-          <Image src={ClientStrona8} alt="project" />
-          {/* <Image
+          <div className="grid grid-cols-4 gap-2 drop-shadow-xl">
+            <Image src={ClientStrona1} alt="project" />
+            <Image src={ClientStrona2} alt="project" />
+            <Image src={ClientStrona3} alt="project" />
+            <Image src={ClientStrona4} alt="project" />
+            <Image src={ClientStrona5} alt="project" />
+            <Image src={ClientStrona6} alt="project" />
+            <Image src={ClientStrona7} alt="project" />
+            <Image src={ClientStrona8} alt="project" />
+            {/* <Image
           src={JeszczeStrona}
           fill
           alt="bg"
           className="object-cover object-center z-[-1]  opacity-10"
         /> */}
+          </div>
         </div>
       </section>
       <Footer />
