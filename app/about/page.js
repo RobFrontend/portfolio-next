@@ -30,7 +30,7 @@ function Page() {
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           Professional<br></br>
-          <span className="text-lg tracking-[-1px] px-1">experience</span>
+          <span className="text-lg tracking-[-1px] px-1">Experience</span>
         </h2>
 
         <div className="flex gap-8 pb-8 pt-2 content-center justify-center flex-wrap max-sm:gap-4">
