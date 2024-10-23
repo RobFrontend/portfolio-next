@@ -14,7 +14,7 @@ import AboutGit from "@/public/AboutGit.png";
 import AboutSupabase from "@/public/AboutSupabase.png";
 import AboutJira from "@/public/AboutJira.png";
 import AboutVSCode from "@/public/AboutVSCode.png";
-import AboutAEM from "@/public/AboutAEM.png";
+import AboutAEM from "@/public/AboutAem.png";
 //
 import HomeClientCarousel from "./components/HomeClientCarousel";
 // Hobby imgs
