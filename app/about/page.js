@@ -26,7 +26,7 @@ function Page() {
         </span>
       </HeroSubPages>
       <Features />
-      {/* PROFESSIONAL EXPERIENCE */}
+      {/* PROFESSIONAL EXPERIENCE  */}
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           Professional<br></br>
