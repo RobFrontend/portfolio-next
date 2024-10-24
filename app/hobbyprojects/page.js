@@ -86,7 +86,7 @@ function Page() {
                 href="https://drose-robfrontend.netlify.app/"
                 target="_blank"
               >
-                Netlify
+                Netlify Page
               </Link>
               <Link href="https://github.com/RobFrontend/DRose" target="_blank">
                 GitHub
