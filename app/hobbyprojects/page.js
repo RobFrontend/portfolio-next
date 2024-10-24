@@ -182,7 +182,7 @@ function Page() {
                 href="https://bulls-game-robfrontend.netlify.app/"
                 target="_blank"
               >
-                Netlify
+                Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/BULLS-Guess-Compare-Game"
