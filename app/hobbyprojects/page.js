@@ -38,13 +38,13 @@ function Page() {
       <section className="max-w-[1200px] mx-auto">
         <h2>Landing pages</h2>
         <p></p>
-        <div className="flex gap-4">
-          <div>
+        <div className="grid grid-cols-3 gap-4 max-sm:grid-cols-1">
+          <div className="grid max-sm:grid-cols-2 gap-4">
             <Image
               src={Karkonosze}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>The Karkonosze Mountains</h3>
               <p></p>
               <Link
@@ -61,9 +61,9 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid max-sm:grid-cols-2 gap-4">
             <Image src={City} alt="hobby landing page about los angeles city" />
-            <div>
+            <div className="grid gap-2">
               <h3>City LA</h3>
               <p></p>
               <Link
@@ -77,9 +77,9 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid max-sm:grid-cols-2 gap-4">
             <Image src={Drose} alt="hobby landing page about derrick rose" />
-            <div>
+            <div className="grid gap-2">
               <h3>DRose MVP</h3>
               <p></p>
               <Link
@@ -105,7 +105,7 @@ function Page() {
               src={Nature}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Project Nature</h3>
               <p></p>
               <Link
@@ -127,7 +127,7 @@ function Page() {
               src={Hoophaven}
               alt="hobby landing page about los angeles city"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Hoop Haven</h3>
               <p></p>
               <Link href="https://hoop-haven.vercel.app/" target="_blank">
@@ -153,7 +153,7 @@ function Page() {
               src={RetroGame}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Retro Car Game</h3>
               <p></p>
               <Link
@@ -175,7 +175,7 @@ function Page() {
               src={Bulls}
               alt="hobby landing page about los angeles city"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>NBA Bulls Game</h3>
               <p></p>
               <Link
@@ -204,7 +204,7 @@ function Page() {
               src={Bookblog}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Short blog with my own CMS</h3>
               <p></p>
               <Link
@@ -227,13 +227,13 @@ function Page() {
       <section className="max-w-[1200px] mx-auto">
         <h2>More Projects</h2>
         <p></p>
-        <div className="flex gap-4">
-          <div>
+        <div className="grid gap-4">
+          <div className="grid grid-cols-2 gap-4">
             <Image
               src={Robify}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Robify</h3>
               <p></p>
               <Link
@@ -250,12 +250,12 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid grid-cols-2 gap-4">
             <Image
               src={Robshop}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>RobShop</h3>
               <p></p>
               <Link
@@ -272,12 +272,12 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid grid-cols-2 gap-4">
             <Image
               src={DesignChanger}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Design Changer</h3>
               <p></p>
               <Link
@@ -294,12 +294,12 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid grid-cols-2 gap-4">
             <Image
               src={CreateUser}
               alt="hobby landing page about karkonosze mountains"
             />
-            <div>
+            <div className="grid gap-2">
               <h3>Add User</h3>
               <p></p>
               <Link
