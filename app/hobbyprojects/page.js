@@ -39,13 +39,6 @@ function Page() {
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           Landing pages
         </h2>
-        <p className="text-justify max-sm:text-sm">
-          I&apos;ve crafted a collection of responsive landing pages using HTML,
-          CSS, and JavaScript that focus on user-friendly experiences and
-          unique, eye-catching designs. Each page is tailored to be easy to
-          navigate, delivering smooth functionality across devices while
-          showcasing creative layouts that make each design memorable.
-        </p>
         <div className="flex gap-8 pb-6 pt-4 content-center justify-center flex-wrap max-sm:gap-4">
           <Image
             src={AboutHtml}
@@ -63,15 +56,22 @@ function Page() {
             className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
           />
         </div>
+        <p className="text-justify max-sm:text-sm pb-5">
+          I&apos;ve crafted a collection of responsive landing pages using HTML,
+          CSS, and JavaScript that focus on user-friendly experiences and
+          unique, eye-catching designs. Each page is tailored to be easy to
+          navigate, delivering smooth functionality across devices while
+          showcasing creative layouts that make each design memorable.
+        </p>
         <div className="grid grid-cols-3 gap-8 max-lg:grid-cols-1 items-start">
-          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1">
+          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1 pb-2">
             <h3 className="text-center text-xl max-lg:col-span-2 max-md:col-span-1">
               The Karkonosze Mountains
             </h3>
             <Image
               src={Karkonosze}
               alt="hobby landing page about karkonosze mountains"
-              className="max-md:max-w-[75%] justify-self-center"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
             <div className="grid gap-2 justify-items-center">
               <p className="text-justify text-sm px-2 max-sm:text-xs">
@@ -99,14 +99,14 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1">
+          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1 pb-2">
             <h3 className="text-center text-xl max-lg:col-span-2 max-md:col-span-1">
               City LA
             </h3>
             <Image
               src={City}
               alt="hobby landing page about los angeles city"
-              className="max-md:max-w-[75%] justify-self-center"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
             <div className="grid gap-2 justify-items-center">
               <p className="text-justify text-sm px-2 max-sm:text-xs">
@@ -141,7 +141,7 @@ function Page() {
             <Image
               src={Drose}
               alt="hobby landing page about derrick rose"
-              className="max-md:max-w-[75%] justify-self-center"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
             <div className="grid gap-2 justify-items-center px-2">
               <p className="text-justify text-sm px-2 max-sm:text-xs">
@@ -174,16 +174,59 @@ function Page() {
       {/* Websites */}
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">Websites</h2>
-        <p></p>
-        <div className="flex gap-4">
-          <div>
+        <div className="flex gap-8 pb-6 pt-4 content-center justify-center flex-wrap max-sm:gap-4">
+          <Image
+            src={AboutReact}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutNext}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutTailwind}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutSupabase}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+        </div>
+        <p className="text-justify max-sm:text-sm pb-5">
+          These multi-page websites, built with React, Next.js, and Tailwind
+          CSS, leverage both Client-Side Rendering (CSR) and Server-Side
+          Rendering (SSR) to optimize performance and enhance user experience.
+          Designed for speed and responsiveness, they incorporate modern
+          JavaScript methods to deliver smooth interactions and efficient data
+          handling across multiple subpages. The integration of Next.js ensures
+          dynamic rendering tailored to user needs, while Tailwind CSS adds a
+          streamlined, visually engaging design.
+        </p>
+        <div className="grid grid-cols-2 items-start gap-8 max-lg:grid-cols-1">
+          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1 pb-2">
+            <h3 className="text-center text-xl max-lg:col-span-2 max-md:col-span-1">
+              Project Nature
+            </h3>
             <Image
               src={Nature}
-              alt="hobby landing page about karkonosze mountains"
+              alt="hobby website about nature"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">Project Nature</h3>
-              <p></p>
+            <div className="grid gap-2 justify-items-center">
+              <p className="text-justify text-sm px-2 max-sm:text-xs">
+                A visually captivating website built with React and Tailwind
+                CSS. It features a beautifully designed Home Page that immerses
+                users in a natural aesthetic. The Booking Page includes a
+                sorting system and price slider, giving users the flexibility to
+                filter options based on their preferences. Additionally, an
+                admin notification system alerts if a booking price appears
+                discounted beyond a set threshold, ensuring error prevention and
+                smooth booking management.
+              </p>
               <Link
                 href="https://nature-robfrontend.netlify.app/"
                 target="_blank"
@@ -200,14 +243,25 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1">
+            <h3 className="text-center text-xl max-lg:col-span-2 max-md:col-span-1">
+              Hoop Haven
+            </h3>
             <Image
               src={Hoophaven}
               alt="hobby landing page about los angeles city"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">Hoop Haven</h3>
-              <p></p>
+            <div className="grid gap-2 justify-items-center">
+              <p className="text-justify text-sm px-2 max-sm:text-xs">
+                Hoop Haven is a Next.js server-side-rendered (SSR) application
+                built with Tailwind CSS that allows users to explore basketball
+                courts, with each court having its own unique URL parameter for
+                easy access and sharing. Court data is dynamically fetched from
+                a Supabase database, enabling seamless updates and accurate
+                information on every court&apos;s details, location, and
+                facilities.
+              </p>
               <Link
                 href="https://hoop-haven.vercel.app/"
                 target="_blank"
