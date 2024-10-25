@@ -16,6 +16,10 @@ import AboutJira from "@/public/AboutJira.png";
 import AboutVSCode from "@/public/AboutVSCode.png";
 import AboutAEM from "@/public/AboutAem.png";
 
+export const metadata = {
+  title: "About me",
+};
+
 function Page() {
   return (
     <>

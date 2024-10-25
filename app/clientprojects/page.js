@@ -26,6 +26,10 @@ import AboutReact from "@/public/AboutReact.png";
 import Image from "next/image";
 import ClientProjectCarousel from "../components/ClientProjectCarousel";
 
+export const metadata = {
+  title: "Client projects",
+};
+
 function Page() {
   return (
     <>

@@ -6,6 +6,10 @@ import OpacityH1 from "../components/OpacityH1";
 import Link from "next/link";
 import Footer from "../components/Footer";
 
+export const metadata = {
+  title: "Contact",
+};
+
 function Page() {
   return (
     <div className="min-h-screen relative z-[1] overflow-hidden heroShadow">

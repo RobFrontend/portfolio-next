@@ -25,6 +25,10 @@ import TeamsNode from "@/public/teamsnode.webp";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Hobby projects",
+};
+
 function Page() {
   return (
     <>
