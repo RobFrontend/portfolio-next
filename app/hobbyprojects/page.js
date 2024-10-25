@@ -542,7 +542,20 @@ function Page() {
                 className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
               />
               <div className="grid gap-2 justify-items-center">
-                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <p className="text-justify text-sm px-2 max-sm:text-xs">
+                  Single Page Application (SPA) built in React, designed to
+                  provide a seamless shopping experience for users. This project
+                  features a dynamic product catalog, allowing users to easily
+                  browse, filter, and sort through various products. The
+                  application includes a fully functional shopping cart where
+                  users can add products, adjust quantities, apply discount
+                  codes, and reset the cart as needed. The intuitive interface
+                  enhances user interaction, making it easy to manage selections
+                  and keep track of purchases. This project showcases my ability
+                  to create interactive and efficient web applications,
+                  combining essential e-commerce functionalities with a clean
+                  and engaging design.
+                </p>
                 <Link
                   href="https://robshop-robfrontend.netlify.app/"
                   target="_blank"
@@ -569,7 +582,20 @@ function Page() {
                 className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
               />
               <div className="grid gap-2 justify-items-center">
-                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <p className="text-justify text-sm px-2 max-sm:text-xs">
+                  Project developed in Node.js aimed at deepening my
+                  understanding of server-side JavaScript. This application
+                  showcases a comprehensive list of NBA teams, each linked to
+                  their respective pages using unique URL parameters. The
+                  project integrates HTML, CSS, and JavaScript methods to create
+                  a user-friendly interface that allows easy navigation between
+                  different teams. Users can click on a team to view detailed
+                  information, demonstrating how dynamic routing works in a
+                  Node.js environment. By building TEAMS NODE, I have gained
+                  valuable insights into the fundamentals of Node.js, including
+                  server creation, routing, and the application of modern
+                  JavaScript techniques.
+                </p>
                 <Link
                   href="https://github.com/RobFrontend/Teams-node"
                   target="_blank"
@@ -589,7 +615,19 @@ function Page() {
                 className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
               />
               <div className="grid gap-2 justify-items-center">
-                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <p className="text-justify text-sm px-2 max-sm:text-xs">
+                  Interactive web page developed using HTML, CSS, and JavaScript
+                  that allows users to personalize their browsing experience by
+                  altering the page&apos;s design dynamically. The application
+                  features three buttons, each programmed to apply a different
+                  design style to the page with a simple click. In addition,
+                  users can take customization a step further by typing their
+                  desired design attributes into a text input field, enabling
+                  real-time updates to the page&apos;s appearance. Through this
+                  project, I explored key concepts in DOM manipulation and event
+                  handling, enhancing my understanding of how user interactions
+                  can directly influence the web environment.
+                </p>
                 <Link
                   href="https://designbuttons-robfrontend.netlify.app/"
                   target="_blank"
@@ -616,7 +654,19 @@ function Page() {
                 className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
               />
               <div className="grid gap-2 justify-items-center">
-                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <p className="text-justify text-sm px-2 max-sm:text-xs">
+                  User-friendly web application developed using HTML, CSS, and
+                  JavaScript that allows users to create new accounts while
+                  ensuring compliance with specific conditions. The application
+                  features a form that captures user details, enforcing
+                  validation rules such as proper email formatting and a minimum
+                  character length for nicknames. This project employs
+                  Object-Oriented Programming (OOP) principles and utilizes
+                  classes to structure the code effectively. Through this
+                  project, I honed my skills in form validation, DOM
+                  manipulation, and OOP, reinforcing my understanding of how to
+                  create robust and maintainable web applications.
+                </p>
                 <Link
                   href="https://createuser-robfrontend.netlify.app/"
                   target="_blank"
