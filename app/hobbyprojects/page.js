@@ -404,33 +404,53 @@ function Page() {
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           Blog with CMS
         </h2>
-        <p></p>
-        <div className="flex gap-4">
-          <div>
-            <Image
-              src={Bookblog}
-              alt="hobby landing page about karkonosze mountains"
-            />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">
-                Short blog with my own CMS
-              </h3>
-              <p></p>
-              <Link
-                href="https://testbookblog-robfrontend.netlify.app/blog"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                Netlify Page
-              </Link>
-              <Link
-                href="https://github.com/RobFrontend/Fullstack-blog"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                GitHub
-              </Link>
-            </div>
+        <div className="flex gap-8 pb-6 pt-4 content-center justify-center flex-wrap max-sm:gap-4 ">
+          <Image
+            src={AboutReact}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutSupabase}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+        </div>
+
+        <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1 max-md:gap-4">
+          <Image
+            src={Bookblog}
+            alt="hobby landing page about karkonosze mountains"
+            className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
+          />
+          <div className="grid gap-4 justify-items-center">
+            <p className="text-justify text-sm px-2 max-sm:text-xs">
+              This project showcases my ability to create a dynamic content
+              management system, allowing users to manage blog posts
+              seamlessly.The application includes a login authentication system,
+              ensuring secure access to the CMS. Once logged in, users can
+              easily add new blog posts, which are then stored directly in the
+              Supabase database. This setup not only streamlines content
+              creation but also allows for efficient data management. With a
+              focus on user experience and functionality, this project
+              exemplifies my skills in combining frontend and backend
+              technologies, demonstrating my commitment to building intuitive
+              and effective web applications.
+            </p>
+            <Link
+              href="https://testbookblog-robfrontend.netlify.app/blog"
+              target="_blank"
+              className="border-b-[1px] border-[#575858] w-fit h-min "
+            >
+              Netlify Page
+            </Link>
+            <Link
+              href="https://github.com/RobFrontend/Fullstack-blog"
+              target="_blank"
+              className="border-b-[1px] border-[#575858] w-fit h-min "
+            >
+              GitHub
+            </Link>
           </div>
         </div>
       </section>
