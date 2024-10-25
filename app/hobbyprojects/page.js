@@ -283,16 +283,66 @@ function Page() {
       {/* Games */}
       <section className="max-w-[1200px] mx-auto">
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">Games</h2>
-        <p></p>
-        <div className="flex gap-4">
-          <div>
+        <div className="flex gap-8 pb-6 pt-4 content-center justify-center flex-wrap max-sm:gap-4">
+          <Image
+            src={AboutHtml}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutCss}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutJs}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutReact}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutTailwind}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+        </div>
+        <p className="text-justify max-sm:text-sm pb-5">
+          In my free time, I&apos;ve developed two interactive games that
+          showcase my skills in both JavaScript and React. The first is built
+          with HTML, CSS, and JavaScript and features classic gameplay with
+          smooth animations. The second game leverages React and Tailwind CSS
+          for a modern, responsive design, incorporating dynamic states and
+          effects for an engaging user experience. Each game demonstrates my
+          ability to create interactive and visually appealing projects,
+          reflecting both creativity and technical versatility.
+        </p>
+        <div className="grid grid-cols-2 items-start gap-8 max-lg:grid-cols-1">
+          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1 pb-2">
+            <h3 className="text-center text-xl max-lg:col-span-2 max-md:col-span-1">
+              Retro Car Game
+            </h3>
             <Image
               src={RetroGame}
               alt="hobby landing page about karkonosze mountains"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">Retro Car Game</h3>
-              <p></p>
+            <div className="grid gap-2 justify-items-center">
+              <p className="text-justify text-sm px-2 max-sm:text-xs">
+                Interactive project built with React and Tailwind CSS that
+                combines classic gameplay with a modern design. Players control
+                a car in pursuit of randomly generated points on the map to earn
+                time before it counts down to zero. Along the way, they must
+                dodge obstacles that drain valuable seconds if hit, adding an
+                extra layer of challenge. High scores unlock faster cars,
+                enhancing the gameplay experience and encouraging players to
+                improve with each round. This game showcases my skills in
+                creating engaging, responsive games with dynamic elements and
+                progression features.
+              </p>
               <Link
                 href="https://retrogame-robfrontend.netlify.app/home"
                 target="_blank"
@@ -309,14 +359,28 @@ function Page() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="grid max-lg:grid-cols-2 gap-4 max-md:grid-cols-1">
+            <h3 className="text-center text-xl max-lg:col-span-2 max-md:col-span-1">
+              NBA Bulls Game
+            </h3>
             <Image
               src={Bulls}
               alt="hobby landing page about los angeles city"
+              className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
             />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">NBA Bulls Game</h3>
-              <p></p>
+            <div className="grid gap-2 justify-items-center">
+              <p className="text-justify text-sm px-2 max-sm:text-xs">
+                Interactive project created using HTML, CSS, and JavaScript.
+                This game features two main activities: a &quot;Guess the
+                Player&quot; game and a &quot;Height Comparison&quot; tool. In
+                the Guess the Player segment, players have four chances to
+                identify the names of four hidden Chicago Bulls players. The
+                Height Comparison section allows users to input any height and
+                compare it to the heights of Chicago Bulls players, making it an
+                engaging way to explore player statistics. The design captures
+                the essence of the Chicago Bulls, making the game visually
+                enjoyable for fans.
+              </p>
               <Link
                 href="https://bulls-game-robfrontend.netlify.app/"
                 target="_blank"
