@@ -36,7 +36,9 @@ function Page() {
       <Features />
       {/* Landing Pages */}
       <section className="max-w-[1200px] mx-auto">
-        <h2>Landing pages</h2>
+        <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
+          Landing pages
+        </h2>
         <p></p>
         <div className="grid grid-cols-3 gap-4 max-sm:grid-cols-1">
           <div className="grid max-sm:grid-cols-2 gap-4">
@@ -45,17 +47,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>The Karkonosze Mountains</h3>
+              <h3 className="text-center text-xl">The Karkonosze Mountains</h3>
               <p></p>
               <Link
                 href="https://karkonosze-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/Mountains-Page"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -64,15 +68,20 @@ function Page() {
           <div className="grid max-sm:grid-cols-2 gap-4">
             <Image src={City} alt="hobby landing page about los angeles city" />
             <div className="grid gap-2">
-              <h3>City LA</h3>
+              <h3 className="text-center text-xl">City LA</h3>
               <p></p>
               <Link
                 href="https://city-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
-              <Link href="https://github.com/RobFrontend/City" target="_blank">
+              <Link
+                href="https://github.com/RobFrontend/City"
+                target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
+              >
                 GitHub
               </Link>
             </div>
@@ -80,15 +89,20 @@ function Page() {
           <div className="grid max-sm:grid-cols-2 gap-4">
             <Image src={Drose} alt="hobby landing page about derrick rose" />
             <div className="grid gap-2">
-              <h3>DRose MVP</h3>
+              <h3 className="text-center text-xl">DRose MVP</h3>
               <p></p>
               <Link
                 href="https://drose-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
-              <Link href="https://github.com/RobFrontend/DRose" target="_blank">
+              <Link
+                href="https://github.com/RobFrontend/DRose"
+                target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
+              >
                 GitHub
               </Link>
             </div>
@@ -97,7 +111,7 @@ function Page() {
       </section>
       {/* Websites */}
       <section className="max-w-[1200px] mx-auto">
-        <h2>Websites</h2>
+        <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">Websites</h2>
         <p></p>
         <div className="flex gap-4">
           <div>
@@ -106,17 +120,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>Project Nature</h3>
+              <h3 className="text-center text-xl">Project Nature</h3>
               <p></p>
               <Link
                 href="https://nature-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/nature-project"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -128,14 +144,19 @@ function Page() {
               alt="hobby landing page about los angeles city"
             />
             <div className="grid gap-2">
-              <h3>Hoop Haven</h3>
+              <h3 className="text-center text-xl">Hoop Haven</h3>
               <p></p>
-              <Link href="https://hoop-haven.vercel.app/" target="_blank">
+              <Link
+                href="https://hoop-haven.vercel.app/"
+                target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
+              >
                 Vercel Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/HoopHaven"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -145,7 +166,7 @@ function Page() {
       </section>
       {/* Games */}
       <section className="max-w-[1200px] mx-auto">
-        <h2>Games</h2>
+        <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">Games</h2>
         <p></p>
         <div className="flex gap-4">
           <div>
@@ -154,17 +175,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>Retro Car Game</h3>
+              <h3 className="text-center text-xl">Retro Car Game</h3>
               <p></p>
               <Link
                 href="https://retrogame-robfrontend.netlify.app/home"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/retro-game-01"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -176,17 +199,19 @@ function Page() {
               alt="hobby landing page about los angeles city"
             />
             <div className="grid gap-2">
-              <h3>NBA Bulls Game</h3>
+              <h3 className="text-center text-xl">NBA Bulls Game</h3>
               <p></p>
               <Link
                 href="https://bulls-game-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/BULLS-Guess-Compare-Game"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -196,7 +221,9 @@ function Page() {
       </section>
       {/* BLOG CMS */}
       <section className="max-w-[1200px] mx-auto">
-        <h2>Blog with CMS</h2>
+        <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
+          Blog with CMS
+        </h2>
         <p></p>
         <div className="flex gap-4">
           <div>
@@ -205,17 +232,21 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>Short blog with my own CMS</h3>
+              <h3 className="text-center text-xl">
+                Short blog with my own CMS
+              </h3>
               <p></p>
               <Link
                 href="https://testbookblog-robfrontend.netlify.app/blog"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/Fullstack-blog"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -225,7 +256,9 @@ function Page() {
       </section>
       {/* OTHERS */}
       <section className="max-w-[1200px] mx-auto">
-        <h2>More Projects</h2>
+        <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
+          More Projects
+        </h2>
         <p></p>
         <div className="grid gap-4">
           <div className="grid grid-cols-2 gap-4">
@@ -234,17 +267,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>Robify</h3>
+              <h3 className="text-center text-xl">Robify</h3>
               <p></p>
               <Link
                 href="https://robify-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/robify"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -256,17 +291,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>RobShop</h3>
+              <h3 className="text-center text-xl">RobShop</h3>
               <p></p>
               <Link
                 href="https://robshop-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/REACT-RobShop-Shop"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -278,17 +315,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>Design Changer</h3>
+              <h3 className="text-center text-xl">Design Changer</h3>
               <p></p>
               <Link
                 href="https://designbuttons-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/Change-of-design-via-text-box."
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
@@ -300,17 +339,19 @@ function Page() {
               alt="hobby landing page about karkonosze mountains"
             />
             <div className="grid gap-2">
-              <h3>Add User</h3>
+              <h3 className="text-center text-xl">Add User</h3>
               <p></p>
               <Link
                 href="https://createuser-robfrontend.netlify.app/"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/CreateUser"
                 target="_blank"
+                className="border-b-[1px] border-[#575858] w-fit"
               >
                 GitHub
               </Link>
