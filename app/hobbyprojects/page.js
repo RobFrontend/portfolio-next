@@ -21,6 +21,7 @@ import Robify from "@/public/robify.webp";
 import Robshop from "@/public/robshop.webp";
 import DesignChanger from "@/public/designchanger.webp";
 import CreateUser from "@/public/createuser.webp";
+import TeamsNode from "@/public/teamsnode.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -459,102 +460,178 @@ function Page() {
         <h2 className="text-4xl tracking-[-4px] pb-6 leading-4">
           More Projects
         </h2>
-        <p></p>
-        <div className="grid gap-4">
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src={Robify}
-              alt="hobby landing page about karkonosze mountains"
-            />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">Robify</h3>
-              <p></p>
-              <Link
-                href="https://robify-robfrontend.netlify.app/"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                Netlify Page
-              </Link>
-              <Link
-                href="https://github.com/RobFrontend/robify"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                GitHub
-              </Link>
+        <div className="flex gap-8 pb-6 pt-4 content-center justify-center flex-wrap max-sm:gap-4 ">
+          <Image
+            src={AboutHtml}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutCss}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutJs}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutNode}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutReact}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+          <Image
+            src={AboutSupabase}
+            alt="logo"
+            className="h-16 w-16 brightness-90 grayscale-[0.4] transition-all duration-500 hover:brightness-100 drop-shadow-lg hover:translate-y-[-6px] max-sm:h-8 max-sm:w-8"
+          />
+        </div>
+
+        <div className="grid gap-10">
+          <div>
+            <h3 className="text-center text-xl pb-4">Robify</h3>
+            <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1 max-md:gap-4">
+              <Image
+                src={Robify}
+                alt="hobby project wit hspotify cover"
+                className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
+              />
+              <div className="grid gap-2 justify-items-center">
+                <p className="text-justify text-sm px-2 max-sm:text-xs">
+                  Project built in React with Supabase database connection,
+                  showcasing advanced state management techniques through the
+                  use of useReducer. This application serves as a unique music
+                  platform, featuring songs that I have either created or
+                  sampled myself using FL Studio, ensuring all content is
+                  legally owned. The project not only demonstrates my technical
+                  proficiency with React but also highlights my creativity and
+                  passion for music production. By leveraging advanced state
+                  management, ROBIFY efficiently handles the dynamic aspects of
+                  the application, allowing for smooth interactions and enhanced
+                  performance.
+                </p>
+                <Link
+                  href="https://robify-robfrontend.netlify.app/"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  Netlify Page
+                </Link>
+                <Link
+                  href="https://github.com/RobFrontend/robify"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  GitHub
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src={Robshop}
-              alt="hobby landing page about karkonosze mountains"
-            />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">RobShop</h3>
-              <p></p>
-              <Link
-                href="https://robshop-robfrontend.netlify.app/"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                Netlify Page
-              </Link>
-              <Link
-                href="https://github.com/RobFrontend/REACT-RobShop-Shop"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                GitHub
-              </Link>
+          <div>
+            <h3 className="text-center text-xl pb-4">RobShop</h3>
+            <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1 max-md:gap-4">
+              <Image
+                src={Robshop}
+                alt="hobby project with react shop cover"
+                className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
+              />
+              <div className="grid gap-2 justify-items-center">
+                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <Link
+                  href="https://robshop-robfrontend.netlify.app/"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  Netlify Page
+                </Link>
+                <Link
+                  href="https://github.com/RobFrontend/REACT-RobShop-Shop"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  GitHub
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src={DesignChanger}
-              alt="hobby landing page about karkonosze mountains"
-            />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">Design Changer</h3>
-              <p></p>
-              <Link
-                href="https://designbuttons-robfrontend.netlify.app/"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                Netlify Page
-              </Link>
-              <Link
-                href="https://github.com/RobFrontend/Change-of-design-via-text-box."
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                GitHub
-              </Link>
+          <div>
+            <h3 className="text-center text-xl pb-4">Teams Node</h3>
+            <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1 max-md:gap-4">
+              <Image
+                src={TeamsNode}
+                alt="hobby node js project"
+                className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
+              />
+              <div className="grid gap-2 justify-items-center">
+                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <Link
+                  href="https://github.com/RobFrontend/Teams-node"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  GitHub
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src={CreateUser}
-              alt="hobby landing page about karkonosze mountains"
-            />
-            <div className="grid gap-2">
-              <h3 className="text-center text-xl">Add User</h3>
-              <p></p>
-              <Link
-                href="https://createuser-robfrontend.netlify.app/"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                Netlify Page
-              </Link>
-              <Link
-                href="https://github.com/RobFrontend/CreateUser"
-                target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
-              >
-                GitHub
-              </Link>
+          <div>
+            <h3 className="text-center text-xl pb-4">Design Changer</h3>
+            <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1 max-md:gap-4">
+              <Image
+                src={DesignChanger}
+                alt="hobby project with changing design buttons"
+                className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
+              />
+              <div className="grid gap-2 justify-items-center">
+                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <Link
+                  href="https://designbuttons-robfrontend.netlify.app/"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  Netlify Page
+                </Link>
+                <Link
+                  href="https://github.com/RobFrontend/Change-of-design-via-text-box."
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  GitHub
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-center text-xl pb-4">Add User</h3>
+            <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1 max-md:gap-4">
+              <Image
+                src={CreateUser}
+                alt="hobby project with creating users"
+                className="max-md:max-w-[75%] justify-self-center max-[500px]:max-w-[100%]"
+              />
+              <div className="grid gap-2 justify-items-center">
+                <p className="text-justify text-sm px-2 max-sm:text-xs"></p>
+                <Link
+                  href="https://createuser-robfrontend.netlify.app/"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  Netlify Page
+                </Link>
+                <Link
+                  href="https://github.com/RobFrontend/CreateUser"
+                  target="_blank"
+                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                >
+                  GitHub
+                </Link>
+              </div>
             </div>
           </div>
         </div>
