@@ -33,7 +33,7 @@ function Page() {
             <Link
               href="https://www.linkedin.com/in/robert-grabowski-b97965239/"
               target="_blank"
-              className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80"
+              className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80 linkHover"
             >
               robert-grabowski-b97965239
             </Link>
@@ -43,7 +43,7 @@ function Page() {
             <Link
               href="https://github.com/RobFrontend"
               target="_blank"
-              className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80"
+              className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80 linkHover"
             >
               RobFrontend
             </Link>

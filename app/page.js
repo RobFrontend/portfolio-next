@@ -192,62 +192,62 @@ export default function Home() {
               <Image
                 src={RetroGame}
                 alt="hobby project game"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={Robify}
                 alt="hobby project spotify"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={BlogCms}
                 alt="hobby project cms"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={HoopHaven}
                 alt="hobby project courts"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={Karkonosze}
                 alt="hobby project mountain"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={CityLa}
                 alt="hobby project los angeles"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={Nature}
                 alt="hobby project booking"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={Robshop}
                 alt="hobby project shop"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={Bulls}
                 alt="hobby project game"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={NodeTeams}
                 alt="hobby project node teams"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={NbaNews}
                 alt="hobby project api"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
               <Image
                 src={CreateUser}
                 alt="hobby project oop"
-                className="brightness-90 hover:brightness-100 transition-all duration-500"
+                className="opacity-90"
               />
             </div>
             <div className="grid">
