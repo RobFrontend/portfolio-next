@@ -56,7 +56,7 @@ export default function Home() {
             </p>
             <Link
               href="/about"
-              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300"
+              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 linkHover"
             >
               More about me
             </Link>
@@ -175,7 +175,7 @@ export default function Home() {
             </div>
             <Link
               href="/clientprojects"
-              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300"
+              className="text-xl border-b-[1px] border-[#575858] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300 linkHover"
             >
               More about client projects
             </Link>
@@ -287,7 +287,7 @@ export default function Home() {
               </div>
               <Link
                 href="/clientprojects"
-                className="text-xl border-b-[1px] border-[#575858] text-[#787979] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300"
+                className="text-xl border-b-[1px] border-[#575858] text-[#787979] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300 linkHover"
               >
                 More about hobby projects
               </Link>

@@ -46,7 +46,7 @@ function Page() {
             <Link
               href="https://www.jeszczestronaalbosto.pl/"
               target="_blank"
-              className="border-b-[1px] border-[#575858] mb-4 mx-1 w-min"
+              className="border-b-[1px] border-[#575858] mb-4 mx-1 w-min linkHover"
             >
               Jeszczestronaalbosto.pl
             </Link>
@@ -84,7 +84,7 @@ function Page() {
                 <Link
                   href="https://www.jeszczestronaalbosto.pl/"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-min"
+                  className="border-b-[1px] border-[#575858] w-min "
                 >
                   jeszczestronaalbosto.pl
                 </Link>{" "}
@@ -123,7 +123,7 @@ function Page() {
             <Link
               href="https://www.jeszczestronaalbosto.pl/"
               target="_blank"
-              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6"
+              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6 linkHover"
             >
               JeszczeStronaAlboSto.pl
             </Link>
@@ -153,7 +153,7 @@ function Page() {
             <Link
               href="https://www.odzywki-legionowo.pl/"
               target="_blank"
-              className="border-b-[1px] border-[#575858] mb-4 mx-1 w-fit"
+              className="border-b-[1px] border-[#575858] mb-4 mx-1 w-fit linkHover"
             >
               Odzywki-legionowo.pl
             </Link>
@@ -199,7 +199,7 @@ function Page() {
             <Link
               href="https://www.odzywki-legionowo.pl/"
               target="_blank"
-              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6"
+              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6 linkHover"
             >
               Odzywki-legionowo.pl
             </Link>
@@ -219,7 +219,7 @@ function Page() {
             <Link
               href="https://robson-fotobudka360.pl/"
               target="_blank"
-              className="border-b-[1px] border-[#575858] mb-4 mx-1 w-fit"
+              className="border-b-[1px] border-[#575858] mb-4 mx-1 w-fit linkHover"
             >
               Robson-fotobudka360.pl
             </Link>
@@ -276,7 +276,7 @@ function Page() {
             <Link
               href="https://robson-fotobudka360.pl/"
               target="_blank"
-              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6"
+              className="justify-self-center text-xl border-b-[1px] border-[#575858] py-2 px-4 max-md:justify-self-center w-fit max-[380px]:max-sm:text-lg hover:opacity-80 transition-all duration-300 mb-6 linkHover"
             >
               Robson-fotobudka360.pl
             </Link>

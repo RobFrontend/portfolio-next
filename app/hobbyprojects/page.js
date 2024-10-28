@@ -91,14 +91,14 @@ function Page() {
               <Link
                 href="https://karkonosze-robfrontend.netlify.app/"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min  "
+                className="border-b-[1px] border-[#575858] w-fit h-min  linkHover"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/Mountains-Page"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min  "
+                className="border-b-[1px] border-[#575858] w-fit h-min  linkHover"
               >
                 GitHub
               </Link>
@@ -126,14 +126,14 @@ function Page() {
               <Link
                 href="https://city-robfrontend.netlify.app/"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/City"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 GitHub
               </Link>
@@ -161,14 +161,14 @@ function Page() {
               <Link
                 href="https://drose-robfrontend.netlify.app/"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/DRose"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 GitHub
               </Link>
@@ -235,14 +235,14 @@ function Page() {
               <Link
                 href="https://nature-robfrontend.netlify.app/"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/nature-project"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 GitHub
               </Link>
@@ -270,14 +270,14 @@ function Page() {
               <Link
                 href="https://hoop-haven.vercel.app/"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 Vercel Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/HoopHaven"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 GitHub
               </Link>
@@ -351,14 +351,14 @@ function Page() {
               <Link
                 href="https://retrogame-robfrontend.netlify.app/home"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/retro-game-01"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 GitHub
               </Link>
@@ -389,14 +389,14 @@ function Page() {
               <Link
                 href="https://bulls-game-robfrontend.netlify.app/"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 Netlify Page
               </Link>
               <Link
                 href="https://github.com/RobFrontend/BULLS-Guess-Compare-Game"
                 target="_blank"
-                className="border-b-[1px] border-[#575858] w-fit h-min "
+                className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
               >
                 GitHub
               </Link>
@@ -445,14 +445,14 @@ function Page() {
             <Link
               href="https://testbookblog-robfrontend.netlify.app/blog"
               target="_blank"
-              className="border-b-[1px] border-[#575858] w-fit h-min "
+              className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
             >
               Netlify Page
             </Link>
             <Link
               href="https://github.com/RobFrontend/Fullstack-blog"
               target="_blank"
-              className="border-b-[1px] border-[#575858] w-fit h-min "
+              className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
             >
               GitHub
             </Link>
@@ -523,14 +523,14 @@ function Page() {
                 <Link
                   href="https://robify-robfrontend.netlify.app/"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   Netlify Page
                 </Link>
                 <Link
                   href="https://github.com/RobFrontend/robify"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   GitHub
                 </Link>
@@ -563,14 +563,14 @@ function Page() {
                 <Link
                   href="https://robshop-robfrontend.netlify.app/"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   Netlify Page
                 </Link>
                 <Link
                   href="https://github.com/RobFrontend/REACT-RobShop-Shop"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   GitHub
                 </Link>
@@ -603,7 +603,7 @@ function Page() {
                 <Link
                   href="https://github.com/RobFrontend/Teams-node"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   GitHub
                 </Link>
@@ -635,14 +635,14 @@ function Page() {
                 <Link
                   href="https://designbuttons-robfrontend.netlify.app/"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   Netlify Page
                 </Link>
                 <Link
                   href="https://github.com/RobFrontend/Change-of-design-via-text-box."
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   GitHub
                 </Link>
@@ -674,14 +674,14 @@ function Page() {
                 <Link
                   href="https://createuser-robfrontend.netlify.app/"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   Netlify Page
                 </Link>
                 <Link
                   href="https://github.com/RobFrontend/CreateUser"
                   target="_blank"
-                  className="border-b-[1px] border-[#575858] w-fit h-min "
+                  className="border-b-[1px] border-[#575858] w-fit h-min linkHover"
                 >
                   GitHub
                 </Link>
