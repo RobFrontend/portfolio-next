@@ -61,3 +61,64 @@ section {
     padding-right: 16px;
   }
 }
+
+.headingPrimarySub {
+  animation: moveDownIn 1s ease-out;
+  backface-visibility: hidden;
+}
+.headingPrimary {
+  animation: moveUpIn 1s ease-out;
+  backface-visibility: hidden;
+}
+
+.imageAppear {
+  animation: moveAppear 1.5s ease-out 0.5s;
+  backface-visibility: hidden;
+  animation-fill-mode: backwards;
+}
+
+.divAppearIn {
+  animation: moveAppearIn 1s ease-out;
+  /* animation-fill-mode: backwards; */
+  backface-visibility: hidden;
+}
+
+@keyframes moveDownIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveUpIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveAppearIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveAppear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}

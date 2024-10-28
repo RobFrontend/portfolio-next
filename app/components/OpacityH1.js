@@ -12,7 +12,7 @@ function OpacityH1() {
   const opacityClass = isOpacity === 80 ? "opacity-80" : "opacity-50";
   return (
     <h1
-      className={`${opacityClass} text-4xl uppercase tracking-[-4px] font-[300] transition-all duration-1000`}
+      className={`${opacityClass} text-4xl uppercase tracking-[-4px] font-[300] transition-all duration-1000 headingPrimary`}
     >
       Robert Grabowski
     </h1>

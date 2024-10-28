@@ -16,8 +16,10 @@ function Page() {
       <Navigation />
       <div className="max-w-[1200px] grid mx-auto pt-32 justify-items-center gap-8 max-xl:pt-16">
         <OpacityH1 />
-        <h2 className="text-5xl tracking-[-5px] font-[300] z-10">Portfolio</h2>
-        <div className="flex flex-col  items-center pt-16 max-xl:pt-8  w-full gap-3 text-center pb-16">
+        <h2 className="text-5xl tracking-[-5px] font-[300] z-10 headingPrimarySub">
+          Portfolio
+        </h2>
+        <div className="flex flex-col  items-center pt-16 max-xl:pt-8  w-full gap-3 text-center pb-16 ">
           <div>
             <h3 className="text-3xl max-[425px]:text-xl">Phone number</h3>
             <p>+48 609 843 405</p>

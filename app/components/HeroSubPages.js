@@ -11,10 +11,12 @@ function HeroSubPages({ children }) {
 
       <div className="max-w-[1200px] grid mx-auto pt-32 justify-items-center gap-8 max-xl:pt-16">
         <OpacityH1 />
-        <h2 className="text-5xl tracking-[-5px] font-[300] z-10">Portfolio</h2>
+        <h2 className="text-5xl tracking-[-5px] font-[300] z-10 headingPrimarySub">
+          Portfolio
+        </h2>
         <div className="flex  pt-32 z-10 px-8 max-lg:pt-24  w-full">
           <div>
-            <h3 className="text-6xl max-[450px]:text-4xl tracking-[-6px] max-[450px]:tracking-[-4px] leading-4 max-[450px]:leading-3">
+            <h3 className="text-6xl max-[450px]:text-4xl tracking-[-6px] max-[450px]:tracking-[-4px] leading-4 max-[450px]:leading-3 divAppearIn">
               {children}
             </h3>
           </div>
@@ -30,7 +32,7 @@ function HeroSubPages({ children }) {
       <Image
         src={TranIMG}
         alt="transparent"
-        className="absolute h-[50vh] max-sm:h-[40vh]  w-auto bottom-[-5px] right-[20%] translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1] max-[425px]:right-[25%]"
+        className="absolute h-[50vh] max-sm:h-[40vh]  w-auto bottom-[-5px] right-[20%] translate-x-1/2 opacity-90 hover:opacity-100 transition-all duration-500 tranIMG z-[1] max-[425px]:right-[25%] imageAppear"
       />
     </div>
   );
