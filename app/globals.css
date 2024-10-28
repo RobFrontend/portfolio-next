@@ -140,9 +140,15 @@ section {
   left: 0;
   width: 70%;
   height: 100%;
-  backdrop-filter: blur(30px);
-  /* background-color: #57585880; */
-  background-color: rgba(255, 255, 255, 0.4);
+  /* backdrop-filter: blur(30px); */
+
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0) 35%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
   z-index: 5;
   opacity: 0;
   transform: translateX(-100%);
@@ -156,7 +162,6 @@ section {
 @keyframes linkBlurIn {
   0% {
     opacity: 0;
-
     transform: translateX(-50%);
   }
   50% {
