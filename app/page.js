@@ -286,7 +286,7 @@ export default function Home() {
                 </ul>
               </div>
               <Link
-                href="/clientprojects"
+                href="/hobbyprojects"
                 className="text-xl border-b-[1px] border-[#575858] text-[#787979] py-2 px-4 justify-self-center w-fit max-[380px]:max-sm:text-lg text-center hover:opacity-80 transition-all duration-300 linkHover"
               >
                 More about hobby projects
