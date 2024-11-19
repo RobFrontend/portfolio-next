@@ -33,7 +33,9 @@ function RevealingSections({ children }) {
     <div
       ref={aboutEl}
       className={`${
-        isShow ? "opacity-100" : "opacity-0 translate-y-6"
+        isShow
+          ? "opacity-100"
+          : "opacity-0 translate-y-12 max-lg:translate-y-8 max-md:translate-y-6"
       } transition-all duration-1000`}
     >
       {children}

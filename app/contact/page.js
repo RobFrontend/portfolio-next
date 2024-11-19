@@ -5,6 +5,7 @@ import Navigation from "../components/navigation";
 import OpacityH1 from "../components/OpacityH1";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import RevealingSections from "../components/RevealingSections";
 
 export const metadata = {
   title: "Contact",
@@ -19,36 +20,38 @@ function Page() {
         <h2 className="text-5xl tracking-[-5px] font-[300] z-10 headingPrimarySub">
           Portfolio
         </h2>
-        <div className="flex flex-col  items-center pt-16 max-xl:pt-8  w-full gap-3 text-center pb-16 ">
-          <div>
-            <h3 className="text-3xl max-[425px]:text-xl">Phone number</h3>
-            <p>+48 609 843 405</p>
+        <RevealingSections>
+          <div className="flex flex-col  items-center pt-16 max-xl:pt-8  w-full gap-3 text-center pb-16 ">
+            <div>
+              <h3 className="text-3xl max-[425px]:text-xl">Phone number</h3>
+              <p>+48 609 843 405</p>
+            </div>
+            <div>
+              <h3 className="text-3xl max-[425px]:text-xl">E-mail</h3>
+              <p>robert.grabowski97@gmail.com</p>
+            </div>
+            <div>
+              <h3 className="text-3xl max-[425px]:text-xl">Linkedin</h3>
+              <Link
+                href="https://www.linkedin.com/in/robert-grabowski-b97965239/"
+                target="_blank"
+                className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80 linkHover"
+              >
+                robert-grabowski-b97965239
+              </Link>
+            </div>
+            <div>
+              <h3 className="text-3xl max-[425px]:text-xl">GitHub</h3>
+              <Link
+                href="https://github.com/RobFrontend"
+                target="_blank"
+                className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80 linkHover"
+              >
+                RobFrontend
+              </Link>
+            </div>
           </div>
-          <div>
-            <h3 className="text-3xl max-[425px]:text-xl">E-mail</h3>
-            <p>robert.grabowski97@gmail.com</p>
-          </div>
-          <div>
-            <h3 className="text-3xl max-[425px]:text-xl">Linkedin</h3>
-            <Link
-              href="https://www.linkedin.com/in/robert-grabowski-b97965239/"
-              target="_blank"
-              className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80 linkHover"
-            >
-              robert-grabowski-b97965239
-            </Link>
-          </div>
-          <div>
-            <h3 className="text-3xl max-[425px]:text-xl">GitHub</h3>
-            <Link
-              href="https://github.com/RobFrontend"
-              target="_blank"
-              className="border-b-[1px] border-[#575858] transition-all duration-300 hover:opacity-80 linkHover"
-            >
-              RobFrontend
-            </Link>
-          </div>
-        </div>
+        </RevealingSections>
       </div>
       <Image
         src={BGHero}
