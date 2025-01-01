@@ -1,5 +1,3 @@
-export const revalidate = 1;
-// export const revalidate = 15;
 function Footer() {
   return (
     <div className="p-8">
